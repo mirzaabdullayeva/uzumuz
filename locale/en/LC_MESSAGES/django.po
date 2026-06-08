@@ -1,0 +1,103 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-08 15:52+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@EMAIL.COM>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\Base\templates\navigation.html:9
+msgid "Home"
+msgstr "Home"
+
+#: .\Base\templates\navigation.html:21
+msgid "Toshkent"
+msgstr "Tashkent"
+
+#: .\Base\templates\navigation.html:26
+msgid "Topshirish punkitlari"
+msgstr "Pickup points"
+
+#: .\Base\templates\navigation.html:35
+msgid "Sotuvchi bo'lish"
+msgstr "Become a seller"
+
+#: .\Base\templates\navigation.html:40
+msgid "Topshirish punkitini ochish"
+msgstr "Open pickup point"
+
+#: .\Base\templates\navigation.html:44
+msgid "Savol-javob"
+msgstr "Q&A"
+
+#: .\Base\templates\navigation.html:48
+msgid "Buyurtmalarim"
+msgstr "My orders"
+
+#: .\Base\templates\navigation.html:75
+msgid "Katalog"
+msgstr "Catalog"
+
+#: .\Base\templates\navigation.html:82
+msgid "Mahsulotlar va turkumlarni izlash"
+msgstr "Search products and categories"
+
+#: .\Base\templates\navigation.html:94
+msgid "Kirish"
+msgstr "Login"
+
+#: .\Base\templates\navigation.html:101
+msgid "Saralangan"
+msgstr "Favorites"
+
+#: .\Base\templates\navigation.html:105
+msgid "Savat"
+msgstr "Cart"
+
+#: .\Base\templates\navigation.html:114
+msgid "Hafta tovarlari"
+msgstr "Weekly deals"
+
+#: .\Base\templates\navigation.html:115
+msgid "Bahorgi kolleksiya"
+msgstr "Spring collection"
+
+#: .\Base\templates\navigation.html:116
+msgid "Xobbi va ijod"
+msgstr "Hobbies and crafts"
+
+#: .\Base\templates\navigation.html:117
+msgid "Smartfonlar"
+msgstr "Smartphones"
+
+#: .\Base\templates\navigation.html:118
+msgid "Bahor yarmarkasi"
+msgstr "Spring fair"
+
+#: .\Base\templates\navigation.html:120
+msgid "Mebel"
+msgstr "Furniture"
+
+#: .\Base\templates\navigation.html:121
+msgid "Turizm, baliq ovi va ovchilik"
+msgstr "Tourism, fishing and hunting"
+
+#: .\Base\templates\navigation.html:122
+msgid "Elektronika"
+msgstr "Electronics"
+
+#: .\Base\templates\navigation.html:124
+msgid "Yana"
+msgstr "More"

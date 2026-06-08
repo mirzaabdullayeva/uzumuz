@@ -1,0 +1,115 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-08 15:52+0500\n"
+"PO-Revision-Date: 2026-06-08 15:14+0500\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Russian\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+
+#: .\Base\templates\navigation.html:9
+msgid "Home"
+msgstr "Главная"
+
+#: .\Base\templates\navigation.html:21
+msgid "Toshkent"
+msgstr "Ташкент"
+
+#: .\Base\templates\navigation.html:26
+msgid "Topshirish punkitlari"
+msgstr "Пункты выдачи"
+
+#: .\Base\templates\navigation.html:35
+msgid "Sotuvchi bo'lish"
+msgstr "Стать продавцом"
+
+#: .\Base\templates\navigation.html:40
+msgid "Topshirish punkitini ochish"
+msgstr "Открыть пункт выдачи"
+
+#: .\Base\templates\navigation.html:44
+msgid "Savol-javob"
+msgstr "Вопрос-ответ"
+
+#: .\Base\templates\navigation.html:48
+msgid "Buyurtmalarim"
+msgstr "Мои заказы"
+
+#: .\Base\templates\navigation.html:75
+msgid "Katalog"
+msgstr "Каталог"
+
+#: .\Base\templates\navigation.html:82
+msgid "Mahsulotlar va turkumlarni izlash"
+msgstr "Поиск товаров и категорий"
+
+#: .\Base\templates\navigation.html:94
+msgid "Kirish"
+msgstr "Войти"
+
+#: .\Base\templates\navigation.html:101
+msgid "Saralangan"
+msgstr "Избранное"
+
+#: .\Base\templates\navigation.html:105
+msgid "Savat"
+msgstr "Корзина"
+
+#: .\Base\templates\navigation.html:114
+msgid "Hafta tovarlari"
+msgstr "Товары недели"
+
+#: .\Base\templates\navigation.html:115
+msgid "Bahorgi kolleksiya"
+msgstr "Весенняя коллекция"
+
+#: .\Base\templates\navigation.html:116
+msgid "Xobbi va ijod"
+msgstr "Хобби и творчество"
+
+#: .\Base\templates\navigation.html:117
+msgid "Smartfonlar"
+msgstr "Смартфоны"
+
+#: .\Base\templates\navigation.html:118
+msgid "Bahor yarmarkasi"
+msgstr "Весенняя ярмарка"
+
+#: .\Base\templates\navigation.html:120
+msgid "Mebel"
+msgstr "Мебель"
+
+#: .\Base\templates\navigation.html:121
+msgid "Turizm, baliq ovi va ovchilik"
+msgstr "Туризм, рыбалка и охота"
+
+#: .\Base\templates\navigation.html:122
+msgid "Elektronika"
+msgstr "Электроника"
+
+#: .\Base\templates\navigation.html:124
+msgid "Yana"
+msgstr "Ещё"
+
+#~ msgid "O'zbekcha"
+#~ msgstr "Узбекский"
+
+#~ msgid "Русский"
+#~ msgstr "Русский"
+
+#~ msgid "yetkazib beriladigan shahar"
+#~ msgstr "город доставки"
+
+#~ msgid "naima"
+#~ msgstr "Наима"

@@ -1,0 +1,130 @@
+{% load i18n %}
+<!DOCTYPE html>
+{% get_current_language as LANGUAGE_CODE %}
+<html lang="{{ LANGUAGE_CODE }}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% trans "Home" %}</title>
+</head>
+
+<body>
+
+<div class="w-[100%] bg-[#f0f2f5]">
+    <div class="container bg-[#f0f2f5] flex justify-between items-center py-[5px]">
+
+        <div class="left flex items-center gap-[24px] text-[14px]">
+
+            <div class="location flex items-center gap-[5px]">
+
+                <span class="font-semibold text-[14px]">{% trans "Toshkent" %}</span>
+
+            </div>
+
+            <a href="{% url 'topshirish_punkiti' %}">
+                {% trans "Topshirish punkitlari" %}
+            </a>
+
+        </div>
+
+        <div class="right flex items-center text-[14px] font-medium">
+
+            <a class="text-[#7f4dff] pr-[14px] border-r-[1px] border-r-[#ccc]"
+               href="{% url 'sotuvchi_bolish' %}">
+                {% trans "Sotuvchi bo'lish" %}
+            </a>
+
+            <a class="text-[#7f4dff] pr-[14px] ml-[14px]"
+               href="{% url 'punkitni_ochish' %}">
+                {% trans "Topshirish punkitini ochish" %}
+            </a>
+
+            <a class="pr-[14px] text-[#4d4f59]" href="{% url 'savol_javob' %}">
+                {% trans "Savol-javob" %}
+            </a>
+
+            <a class="pr-[14px] text-[#4d4f59]" href="#">
+                {% trans "Buyurtmalarim" %}
+            </a>
+
+            <form action="{% url 'set_language' %}" method="post">
+                {% csrf_token %}
+
+                <select name="language" onchange="this.form.submit()" class="w-full border rounded p-2">
+                    <option value="uz">Tilni o'zgartirish</option>
+                    <option value="ru">Русский</option>
+                    <option value="en">english</option>
+                    <option value="uz">O'zbekcha</option>
+                </select>
+            </form>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+    <div class="py-[15px] flex items-center justify-between">
+
+        <a href="{% url 'home' %}">
+            <!-- LOGO -->
+        </a>
+
+        <div class="w-[120px] h-[40px] flex gap-[7px] items-center justify-center bg-[#e5e5ff] rounded-[5px]">
+            <span class="text-[#7f4dff]">{% trans "Katalog" %}</span>
+        </div>
+
+        <div class="flex w-[568px] h-[40px] border-[#ccc] border-[1px] rounded-[3px]">
+
+            <input class="w-[488px] px-[20px] outline-none"
+                   type="text"
+                   placeholder="{% trans 'Mahsulotlar va turkumlarni izlash' %}">
+
+        </div>
+
+        <div class="flex items-center gap-[10px]">
+
+            {% if user.is_authenticated %}
+                <a class="flex" href="{% url 'logout' %}">
+                    <span>{{ user.username }}</span>
+                </a>
+            {% else %}
+                <a href="{% url 'login' %}">
+                    {% trans "Kirish" %}
+                </a>
+            {% endif %}
+
+        </div>
+
+        <div class="w-[120px] flex items-center justify-center">
+            {% trans "Saralangan" %}
+        </div>
+
+        <a href="{% url 'cart_page' %}">
+            {% trans "Savat" %}
+        </a>
+
+    </div>
+</div>
+
+
+<div class="flex items-center gap-[53px] mt-[20px] mb-[25px]">
+
+    <h1>{% trans "Hafta tovarlari" %}</h1>
+    <h1>{% trans "Bahorgi kolleksiya" %}</h1>
+    <h1>{% trans "Xobbi va ijod" %}</h1>
+    <h1>{% trans "Smartfonlar" %}</h1>
+    <h1>{% trans "Bahor yarmarkasi" %}</h1>
+
+    <h1>{% trans "Mebel" %}</h1>
+    <h1>{% trans "Turizm, baliq ovi va ovchilik" %}</h1>
+    <h1>{% trans "Elektronika" %}</h1>
+
+    <h1>{% trans "Yana" %}</h1>
+
+</div>
+
+</body>
+</html>

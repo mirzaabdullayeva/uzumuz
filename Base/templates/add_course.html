@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+</body>
+<style>
+
+button:hover{
+    background-color:#e7d4f2c7 ;
+}
+
+</style>
+
+<body class="bg-[#E5E5FF]">
+    <div class="w-[500px] m-auto mt-[100px]">
+        <h1 class="text-[30px] font-bold">Add Course :</h1>
+        <form method="post" class="w-[500px]">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button style="cursor: pointer;" class=" font-[700] rounded-[5px] border border-[#DEA3FF] border-[4px] p-[5px] pl-[30px] pr-[30px] " type="submit">Saqlash</button>
+        </form>
+    </div>
+
+
+</body>
+
+</html>

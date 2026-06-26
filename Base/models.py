@@ -60,3 +60,14 @@ class Contact(models.Model):
     text = models.TextField()
     
 # foreginKey ---- boshqa model
+
+
+class Course(models.Model):
+    name = models.CharField(max_length=30)
+    description = models.TextField()
+    narxi = models.DecimalField(max_digits=10, decimal_places=2, null=True)
+    skidkasi = models.IntegerField(default=0, null=True)
+
+
+    def __str__(self):
+        return self.name

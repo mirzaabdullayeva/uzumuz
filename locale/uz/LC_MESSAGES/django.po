@@ -8,96 +8,368 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-08 15:54+0500\n"
+"POT-Creation-Date: 2026-06-15 11:01+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@EMAIL.COM>\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-
 #: .\Base\templates\navigation.html:9
 msgid "Home"
-msgstr "Bosh sahifa"
+msgstr ""
 
 #: .\Base\templates\navigation.html:21
+#: .\Base\templates\punkitni_ochish.html:113
 msgid "Toshkent"
-msgstr "Toshkent"
+msgstr ""
 
 #: .\Base\templates\navigation.html:26
 msgid "Topshirish punkitlari"
-msgstr "Topshirish punktlari"
+msgstr ""
 
-#: .\Base\templates\navigation.html:35
+#: .\Base\templates\navigation.html:34
+#: .\Base\templates\punkitni_ochish.html:551
 msgid "Sotuvchi bo'lish"
-msgstr "Sotuvchi bo‘lish"
+msgstr ""
 
-#: .\Base\templates\navigation.html:40
+#: .\Base\templates\navigation.html:38
+#: .\Base\templates\punkitni_ochish.html:288
 msgid "Topshirish punkitini ochish"
-msgstr "Topshirish punktini ochish"
+msgstr ""
 
-#: .\Base\templates\navigation.html:44
+#: .\Base\templates\navigation.html:42
 msgid "Savol-javob"
-msgstr "Savol-javob"
+msgstr ""
 
-#: .\Base\templates\navigation.html:48
+#: .\Base\templates\navigation.html:46
 msgid "Buyurtmalarim"
-msgstr "Buyurtmalarim"
+msgstr ""
 
-#: .\Base\templates\navigation.html:75
+#: .\Base\templates\navigation.html:135
 msgid "Katalog"
-msgstr "Katalog"
+msgstr ""
 
-#: .\Base\templates\navigation.html:82
+#: .\Base\templates\navigation.html:141
 msgid "Mahsulotlar va turkumlarni izlash"
-msgstr "Mahsulotlar va turkumlarni izlash"
+msgstr ""
 
-#: .\Base\templates\navigation.html:94
+#: .\Base\templates\navigation.html:162
 msgid "Kirish"
-msgstr "Kirish"
+msgstr ""
 
-#: .\Base\templates\navigation.html:101
+#: .\Base\templates\navigation.html:175
 msgid "Saralangan"
-msgstr "Saralangan"
+msgstr ""
 
-#: .\Base\templates\navigation.html:105
+#: .\Base\templates\navigation.html:185
 msgid "Savat"
-msgstr "Savat"
+msgstr ""
 
-#: .\Base\templates\navigation.html:114
+#: .\Base\templates\navigation.html:200
 msgid "Hafta tovarlari"
-msgstr "Hafta tovarlari"
+msgstr ""
 
-#: .\Base\templates\navigation.html:115
+#: .\Base\templates\navigation.html:204
 msgid "Bahorgi kolleksiya"
-msgstr "Bahorgi kolleksiya"
+msgstr ""
 
-#: .\Base\templates\navigation.html:116
+#: .\Base\templates\navigation.html:208
 msgid "Xobbi va ijod"
-msgstr "Xobbi va ijod"
+msgstr ""
 
-#: .\Base\templates\navigation.html:117
+#: .\Base\templates\navigation.html:212
 msgid "Smartfonlar"
-msgstr "Smartfonlar"
+msgstr ""
 
-#: .\Base\templates\navigation.html:118
+#: .\Base\templates\navigation.html:216
 msgid "Bahor yarmarkasi"
-msgstr "Bahor yarmarkasi"
+msgstr ""
 
-#: .\Base\templates\navigation.html:120
+#: .\Base\templates\navigation.html:219
 msgid "Mebel"
-msgstr "Mebel"
+msgstr ""
 
-#: .\Base\templates\navigation.html:121
+#: .\Base\templates\navigation.html:220
 msgid "Turizm, baliq ovi va ovchilik"
-msgstr "Turizm, baliq ovi va ovchilik"
+msgstr ""
 
-#: .\Base\templates\navigation.html:122
+#: .\Base\templates\navigation.html:221
 msgid "Elektronika"
-msgstr "Elektronika"
+msgstr ""
 
-#: .\Base\templates\navigation.html:124
+#: .\Base\templates\navigation.html:222
 msgid "Yana"
-msgstr "Yana"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:68
+msgid "Topshirish punktini qanday ochish mumkin"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:69
+msgid "Ochish uchun nima kerak"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:70
+#: .\Base\templates\punkitni_ochish.html:554
+msgid "Brendbuk"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:93
+msgid "Uzum Market <br>topshirish <br>punktini oching"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:94
+msgid ""
+"Ochilishda va ishning birinchi oylarida moliyaviy jihatdan yordamlashamiz"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:95
+msgid "Ochilish joyini tanlash"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:107
+msgid "Birinchi oydanoq pul ishlashni boshlang"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:119
+msgid "Yirik shaharlar"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:125
+msgid " Boshqa shaharlar va qishloqlar"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:130
+msgid " Yirik shaharlar va Toshkent viloyatidan boshqa hammasi"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:136
+msgid "Har bir olib ketilgan tovardan"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:148
+msgid "Birinchi 6 oyda haqiqiy daromadni kafolatlaymiz"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:155
+msgid "so'm oyiga"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:160
+msgid "Bundan kam topsangiz, farqini to'lab beramiz"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:168
+msgid "Ochilish bonusi"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:177
+msgid "so'm"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:183
+msgid "Topshirish punkiti 25 kun ichida ochilganda"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:192
+msgid "Har bir bosqichdagi daromadingiz"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:201
+msgid "Ochilish"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:205
+msgid "bonus"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:217
+msgid "Birinchi 6 oy"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:219
+msgid "kamida <br> 17.4 mln so'm"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:232
+#, python-format
+msgid "harbir olib ketilgan tovardan 6%%"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:250
+msgid "O‘z topshirish punktingizni <br>ochish — oson"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:254
+msgid "Boshlashda yordam beramiz"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:255
+msgid ""
+"Tayyor dasturiy ta'minotni taqdim etamiz, xodimlarni o‘qitib, dizayn-loyiha "
+"sovg‘a"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:262
+msgid "Minimal sarmoya"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:263
+msgid "Boshlanishda — faqat ishlash joyingizning remonti"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:270
+msgid "Tezkor <br> ishga tushirish"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:271
+msgid "Arizadan birinchi buyurtmani topshirishgacha — ikki oy"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:275
+msgid "Hech qanday yashirin <br>to'lovlarsiz"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:276
+msgid "Biz qat’iy shartnoma asosida ishlaymiz"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:298
+msgid "Bizga ishonishning sabablari"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:311
+msgid "bir yilda berilgan buyurtmalar"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:321
+msgid "Uzum Market’dagi faol sotuvchilar"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:327
+msgid "topshirish punktlari <br> va do‘konlar"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:331
+msgid "aholi punktlari"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:349
+msgid "Topshirish punktingiz uchun<br>joy tanlang"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:356
+msgid "Tavsiya etamiz"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:361
+msgid "Bu yerda ochib bo‘lmaydi"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:369
+msgid "Topshirish punktini<br>ochish tartibi"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:382
+msgid "Joy toping"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:385
+msgid "Maydoni 20 m² va undan kattaroq"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:389
+msgid "Avtoturargohi bor"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:393
+msgid "Fasadga Uzum Market belgisini osish mumkin"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:411
+msgid "Ariza qoldiring"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:412
+msgid ""
+"Biz sizdan joy manzili va suratlarini so'raymiz. Hammasini tekshirib, 3-5 "
+"kun ichida tasdiqlaymiz"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:432
+msgid "Shartnomani imzolang"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:433
+msgid ""
+"Yuridik shaxs bo‘lmasangiz, uni rasmiylashtiring. Biz shartnoma <br> tuzib, "
+"imzolash uchun sizga yuboramiz."
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:453
+msgid "Binoni ta'mirlang"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:456
+msgid ""
+"Topshirish punktingiz brendbukdagidek bo‘lishi uchun sizga dizayn-loyihani "
+"<br> sovg‘a qilamiz. Ortiqcha narsalarni o‘ylashga hojat qolmaydi"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:460
+msgid ""
+"Ochilish jarayonining barcha bosqichlarida yordam beradigan "
+"Uzum<br>Market’dan yordamchi biriktiramiz"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:481
+msgid "Xodim toping"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:482
+msgid ""
+"Biz unga buyurtmalarni qanday topshirish va mijozlar bilan qanday<br>muloqot "
+"qilishni ‘rgatamiz. Xodim yollashning imkoni bo‘lmasa, <br> biz yordam "
+"beramiz"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:501
+msgid "Birinchi xaridorlarni kutib oling"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:504
+msgid "Xaridorlar topshirish punktingizni Uzum Market’da ko‘rishadi"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:508
+msgid "Birinchi buyurtmalaringiz ombordan yetkazib beriladi"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:511
+msgid ""
+"Biz sizni ochilgandan keyin ham qo‘llab-quvvatlaymiz va barcha shartlar <br> "
+"bajarilganda moliyaviy yordam ko‘rsatamiz."
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:548
+msgid "Hamkorlar uchun"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:558
+msgid "Kompaniya"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:561
+msgid "Oferta shartnomasi"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:564
+msgid "Maxfiylik siyosati"
+msgstr ""
+
+#: .\Base\templates\punkitni_ochish.html:568
+msgid "Uzum Market<br> hamkorlarining chati"
+msgstr ""

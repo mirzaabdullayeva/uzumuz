@@ -3,7 +3,32 @@ from .models import Item, Men, Main_branch, Cart, CartItem
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import redirect, get_object_or_404
 from .models import CartItem, Contact
+from .forms import CourseForm, Course
 from .forms import ContactForm
+
+
+def home(request):
+    course = Course.objects.all()
+    
+    return render(request, 'home.html', {"course": course})
+
+def add_course(request):
+    if request.method == "POST":
+        form = CourseForm(request.POST)
+        if form.is_valid():
+            form.save()
+            return redirect('add-course')
+    else:
+        form = CourseForm()
+        
+    return render(request, "add_course.html", {"form": form})
+
+def mini(request):
+    course = Course.objects.all()
+
+    return render(request, "mini.html", {"course": course})
+
+
 
 
 @login_required 
@@ -76,6 +101,8 @@ def Mother_and_Children(request):
 
 def split(request):
     return render(request, "split.html")
+
+
 
 
 

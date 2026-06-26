@@ -3,26 +3,26 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-08 15:52+0500\n"
-"PO-Revision-Date: 2026-06-08 15:14+0500\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2026-06-15 11:01+0500\n"
+"PO-Revision-Date: 2026-06-15\n"
+"Last-Translator: ChatGPT\n"
 "Language-Team: Russian\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 
 #: .\Base\templates\navigation.html:9
 msgid "Home"
 msgstr "Главная"
 
 #: .\Base\templates\navigation.html:21
+#: .\Base\templates\punkitni_ochish.html:113
 msgid "Toshkent"
 msgstr "Ташкент"
 
@@ -30,86 +30,296 @@ msgstr "Ташкент"
 msgid "Topshirish punkitlari"
 msgstr "Пункты выдачи"
 
-#: .\Base\templates\navigation.html:35
+#: .\Base\templates\navigation.html:34
+#: .\Base\templates\punkitni_ochish.html:551
 msgid "Sotuvchi bo'lish"
 msgstr "Стать продавцом"
 
-#: .\Base\templates\navigation.html:40
+#: .\Base\templates\navigation.html:38
+#: .\Base\templates\punkitni_ochish.html:288
 msgid "Topshirish punkitini ochish"
 msgstr "Открыть пункт выдачи"
 
-#: .\Base\templates\navigation.html:44
+#: .\Base\templates\navigation.html:42
 msgid "Savol-javob"
-msgstr "Вопрос-ответ"
+msgstr "Вопросы и ответы"
 
-#: .\Base\templates\navigation.html:48
+#: .\Base\templates\navigation.html:46
 msgid "Buyurtmalarim"
 msgstr "Мои заказы"
 
-#: .\Base\templates\navigation.html:75
+#: .\Base\templates\navigation.html:135
 msgid "Katalog"
 msgstr "Каталог"
 
-#: .\Base\templates\navigation.html:82
+#: .\Base\templates\navigation.html:141
 msgid "Mahsulotlar va turkumlarni izlash"
 msgstr "Поиск товаров и категорий"
 
-#: .\Base\templates\navigation.html:94
+#: .\Base\templates\navigation.html:162
 msgid "Kirish"
 msgstr "Войти"
 
-#: .\Base\templates\navigation.html:101
+#: .\Base\templates\navigation.html:175
 msgid "Saralangan"
 msgstr "Избранное"
 
-#: .\Base\templates\navigation.html:105
+#: .\Base\templates\navigation.html:185
 msgid "Savat"
 msgstr "Корзина"
 
-#: .\Base\templates\navigation.html:114
+#: .\Base\templates\navigation.html:200
 msgid "Hafta tovarlari"
 msgstr "Товары недели"
 
-#: .\Base\templates\navigation.html:115
+#: .\Base\templates\navigation.html:204
 msgid "Bahorgi kolleksiya"
 msgstr "Весенняя коллекция"
 
-#: .\Base\templates\navigation.html:116
+#: .\Base\templates\navigation.html:208
 msgid "Xobbi va ijod"
 msgstr "Хобби и творчество"
 
-#: .\Base\templates\navigation.html:117
+#: .\Base\templates\navigation.html:212
 msgid "Smartfonlar"
 msgstr "Смартфоны"
 
-#: .\Base\templates\navigation.html:118
+#: .\Base\templates\navigation.html:216
 msgid "Bahor yarmarkasi"
 msgstr "Весенняя ярмарка"
 
-#: .\Base\templates\navigation.html:120
+#: .\Base\templates\navigation.html:219
 msgid "Mebel"
 msgstr "Мебель"
 
-#: .\Base\templates\navigation.html:121
+#: .\Base\templates\navigation.html:220
 msgid "Turizm, baliq ovi va ovchilik"
 msgstr "Туризм, рыбалка и охота"
 
-#: .\Base\templates\navigation.html:122
+#: .\Base\templates\navigation.html:221
 msgid "Elektronika"
 msgstr "Электроника"
 
-#: .\Base\templates\navigation.html:124
+#: .\Base\templates\navigation.html:222
 msgid "Yana"
 msgstr "Ещё"
 
-#~ msgid "O'zbekcha"
-#~ msgstr "Узбекский"
+#: .\Base\templates\navigation.html:68
+msgid "Topshirish punktini qanday ochish mumkin"
+msgstr "Как открыть пункт выдачи"
 
-#~ msgid "Русский"
-#~ msgstr "Русский"
+#: .\Base\templates\navigation.html:69
+msgid "Ochish uchun nima kerak"
+msgstr "Что нужно для открытия"
 
-#~ msgid "yetkazib beriladigan shahar"
-#~ msgstr "город доставки"
+#: .\Base\templates\navigation.html:70
+msgid "Brendbuk"
+msgstr "Брендбук"
 
-#~ msgid "naima"
-#~ msgstr "Наима"
+#: .\Base\templates\navigation.html:93
+msgid "Uzum Market <br>topshirish <br>punktini oching"
+msgstr "Откройте <br>пункт выдачи <br>Uzum Market"
+
+#: .\Base\templates\navigation.html:94
+msgid "Ochilishda va ishning birinchi oylarida moliyaviy jihatdan yordamlashamiz"
+msgstr "Поможем финансово при открытии и в первые месяцы работы"
+
+#: .\Base\templates\navigation.html:95
+msgid "Ochilish joyini tanlash"
+msgstr "Выбрать место открытия"
+
+#: .\Base\templates\navigation.html:107
+msgid "Birinchi oydanoq pul ishlashni boshlang"
+msgstr "Начните зарабатывать с первого месяца"
+
+#: .\Base\templates\navigation.html:119
+msgid "Yirik shaharlar"
+msgstr "Крупные города"
+
+#: .\Base\templates\navigation.html:125
+msgid " Boshqa shaharlar va qishloqlar"
+msgstr " Другие города и сёла"
+
+#: .\Base\templates\navigation.html:130
+msgid " Yirik shaharlar va Toshkent viloyatidan boshqa hammasi"
+msgstr " Все кроме крупных городов и Ташкентской области"
+
+#: .\Base\templates\navigation.html:136
+msgid "Har bir olib ketilgan tovardan"
+msgstr "С каждого выданного товара"
+
+#: .\Base\templates\navigation.html:148
+msgid "Birinchi 6 oyda haqiqiy daromadni kafolatlaymiz"
+msgstr "Гарантируем доход первые 6 месяцев"
+
+#: .\Base\templates\navigation.html:155
+msgid "so'm oyiga"
+msgstr "сум в месяц"
+
+#: .\Base\templates\navigation.html:160
+msgid "Bundan kam topsangiz, farqini to'lab beramiz"
+msgstr "Если заработаете меньше — компенсируем разницу"
+
+#: .\Base\templates\navigation.html:168
+msgid "Ochilish bonusi"
+msgstr "Бонус открытия"
+
+#: .\Base\templates\navigation.html:177
+msgid "so'm"
+msgstr "сум"
+
+#: .\Base\templates\navigation.html:183
+msgid "Topshirish punkiti 25 kun ichida ochilganda"
+msgstr "При открытии пункта за 25 дней"
+
+#: .\Base\templates\navigation.html:192
+msgid "Har bir bosqichdagi daromadingiz"
+msgstr "Ваш доход на каждом этапе"
+
+#: .\Base\templates\navigation.html:201
+msgid "Ochilish"
+msgstr "Открытие"
+
+#: .\Base\templates\navigation.html:205
+msgid "bonus"
+msgstr "бонус"
+
+#: .\Base\templates\navigation.html:217
+msgid "Birinchi 6 oy"
+msgstr "Первые 6 месяцев"
+
+#: .\Base\templates\navigation.html:219
+msgid "kamida <br> 17.4 mln so'm"
+msgstr "минимум <br> 17.4 млн сум"
+
+#: .\Base\templates\navigation.html:232
+msgid "harbir olib ketilgan tovardan 6%%"
+msgstr "6% с каждого товара"
+
+#: .\Base\templates\navigation.html:250
+msgid "O‘z topshirish punktingizni <br>ochish — oson"
+msgstr "Открыть свой <br>пункт выдачи — легко"
+
+#: .\Base\templates\navigation.html:254
+msgid "Boshlashda yordam beramiz"
+msgstr "Поможем начать"
+
+#: .\Base\templates\navigation.html:255
+msgid "Tayyor dasturiy ta'minotni taqdim etamiz..."
+msgstr "Предоставим ПО и обучим персонал"
+
+#: .\Base\templates\navigation.html:262
+msgid "Minimal sarmoya"
+msgstr "Минимальные вложения"
+
+#: .\Base\templates\navigation.html:270
+msgid "Tezkor <br> ishga tushirish"
+msgstr "Быстрый запуск"
+
+#: .\Base\templates\navigation.html:271
+msgid "Arizadan birinchi buyurtmagacha 2 oy"
+msgstr "От заявки до первого заказа 2 месяца"
+
+#: .\Base\templates\navigation.html:275
+msgid "Hech qanday yashirin <br>to'lovlarsiz"
+msgstr "Без скрытых платежей"
+
+#: .\Base\templates\navigation.html:276
+msgid "Biz qat’iy shartnoma asosida ishlaymiz"
+msgstr "Работаем по официальному договору"
+
+#: .\Base\templates\navigation.html:298
+msgid "Bizga ishonishning sabablari"
+msgstr "Почему нам доверяют"
+
+#: .\Base\templates\navigation.html:311
+msgid "bir yilda berilgan buyurtmalar"
+msgstr "заказов за год"
+
+#: .\Base\templates\navigation.html:321
+msgid "Uzum Market’dagi faol sotuvchilar"
+msgstr "Активные продавцы Uzum Market"
+
+#: .\Base\templates\navigation.html:327
+msgid "topshirish punktlari <br> va do‘konlar"
+msgstr "пункты выдачи <br> и магазины"
+
+#: .\Base\templates\navigation.html:331
+msgid "aholi punktlari"
+msgstr "населённые пункты"
+
+#: .\Base\templates\navigation.html:349
+msgid "Topshirish punktingiz uchun<br>joy tanlang"
+msgstr "Выберите место для пункта"
+
+#: .\Base\templates\navigation.html:356
+msgid "Tavsiya etamiz"
+msgstr "Рекомендуем"
+
+#: .\Base\templates\navigation.html:361
+msgid "Bu yerda ochib bo‘lmaydi"
+msgstr "Здесь открыть нельзя"
+
+#: .\Base\templates\navigation.html:369
+msgid "Topshirish punktini<br>ochish tartibi"
+msgstr "Порядок открытия пункта"
+
+#: .\Base\templates\navigation.html:382
+msgid "Joy toping"
+msgstr "Найдите помещение"
+
+#: .\Base\templates\navigation.html:385
+msgid "Maydoni 20 m² va undan kattaroq"
+msgstr "Площадь от 20 м²"
+
+#: .\Base\templates\navigation.html:389
+msgid "Avtoturargohi bor"
+msgstr "Есть парковка"
+
+#: .\Base\templates\navigation.html:393
+msgid "Fasadga Uzum Market belgisini osish mumkin"
+msgstr "Можно повесить вывеску Uzum Market"
+
+#: .\Base\templates\navigation.html:411
+msgid "Ariza qoldiring"
+msgstr "Оставьте заявку"
+
+#: .\Base\templates\navigation.html:412
+msgid "Мы проверим данные и ответим в течение 3–5 дней"
+msgstr "Мы проверим данные и ответим за 3–5 дней"
+
+#: .\Base\templates\navigation.html:432
+msgid "Shartnomani imzolang"
+msgstr "Подпишите договор"
+
+#: .\Base\templates\navigation.html:453
+msgid "Binoni ta'mirlang"
+msgstr "Отремонтируйте помещение"
+
+#: .\Base\templates\navigation.html:481
+msgid "Xodim toping"
+msgstr "Найдите сотрудника"
+
+#: .\Base\templates\navigation.html:501
+msgid "Birinchi xaridorlarni kutib oling"
+msgstr "Встречайте первых клиентов"
+
+#: .\Base\templates\navigation.html:548
+msgid "Hamkorlar uchun"
+msgstr "Для партнёров"
+
+#: .\Base\templates\navigation.html:558
+msgid "Kompaniya"
+msgstr "Компания"
+
+#: .\Base\templates\navigation.html:561
+msgid "Oferta shartnomasi"
+msgstr "Договор оферты"
+
+#: .\Base\templates\navigation.html:564
+msgid "Maxfiylik siyosati"
+msgstr "Политика конфиденциальности"
+
+#: .\Base\templates\navigation.html:568
+msgid "Uzum Market<br> hamkorlarining chati"
+msgstr "Чат партнёров Uzum Market"

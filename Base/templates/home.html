@@ -1,13 +1,59 @@
+{% load i18n %}
+{% load static %}
 <!DOCTYPE html>
-<html lang="en">
+{% get_current_language as LANGUAGE_CODE %}
+<html lang="{{ LANGUAGE_CODE }}">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description"
+        content="ElektrikJan - Avtomobillar elektr tizimlarini diagnostika va ta'mirlash xizmati. ECU, sensorlar, signalizatsiya, starter, generator va barcha avtoelektrik muammolariga professional yechim.">
+    <meta name="keywords"
+        content="ElektrikJan, avtoelektrik, avtomobil elektrigi, ECU diagnostika, starter ta'miri, generator ta'miri, avto diagnostika, signalizatsiya o'rnatish, mashina elektrigi, auto electrician Uzbekistan">
+    <meta name="author" content="ElektrikJan">
+    <meta name="robots" content="index, follow">
+    <title>{% trans "Home" %}</title>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Elektrikjan">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+    <link rel="apple-touch-icon" href="{% static 'icons/logo.jpg' %}">
+    <title>Dashboard</title>
+    <link rel="manifest" href="{% static 'manifest.json' %}">
+    <meta name="theme-color" content="#0d6efd">
+    <link rel="apple-touch-icon" href="{% static 'icons/logo.jpg' %}">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+
+<body class="bg-gray-100 min-h-screen flex items-center justify-center">
+
+    <div class="bg-white p-6 rounded-lg shadow-md w-96">
+        <form action="{% url 'set_language' %}" method="post" class="mb-4">
+            {% csrf_token %}
+
+            <select name="language" onchange="this.form.submit()" class="w-full border rounded p-2">
+                <option value="uz">O'zbek</option>
+                <option value="en">English</option>
+                <option value="ru">Русский</option>
+            </select>
+        </form>
+
+        <h1 class="text-2xl font-bold mb-2">
+            {% trans "salom" %}
+        </h1>
+
+        <p class="text-gray-600">
+            {% trans "qalesan" %}
+        </p>
+
+        <h3>{% trans 'Bilmoq' %}</h3>
+
+        <h1>{% trans 'oqimoq' %}</h1>
+
+        <h1>{% trans "talk" %}</h1>
+    </div>
     
-
-
 </body>
+
 </html>

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
 <body>
@@ -19,16 +19,18 @@
             </form>
         </div>
 
+        <a href="{% url 'xabarlar' %}">
+            <div class="w-[180px] h-[50px] p-[10px] bg-[blue] rounded-[12px] mt-[20px] ml-[700px]">
+                <h1 class="text-[white] font-[700]">Saqlangar habarlar</h1>
+            </div>
+        </a>
+
     </div>
 
 
-    <a href="{% url 'xabarlar' %}">
-        <div class="w-[180px] h-[50px] p-[10px] bg-[blue] rounded-[12px]">
-        <h1 class="text-[white] font-[700]">Saqlangar habarlar</h1>
-    </div>
-    </a>
-     
-  
+
+
+
 </body>
 
 </html>
